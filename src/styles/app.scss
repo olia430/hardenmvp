@@ -1,0 +1,37 @@
+$primary-color :red;
+body{
+    background: $primary-color;
+    font: {
+        family: cursive;
+        size: 16px;
+    }
+}
+$mvp :black;
+.top{
+    height: 100px;
+    width: 100px;
+    background-color: $mvp;
+}
+.text{
+    color: yellow;
+}
+.nav{
+    background: #fff;
+    li{
+        color: red;
+    }
+    a{
+        color: black;
+        &:hover{
+            background: yellow;
+        }
+    }
+}
+@mixin button ($background) {
+        height: 50px;
+        width: 50px;
+        background-color: $background;
+}
+ button{
+    @include button(#332244);
+}

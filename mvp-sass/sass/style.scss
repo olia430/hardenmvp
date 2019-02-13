@@ -1,0 +1,21 @@
+body{
+    color: blue;
+    line-height: 1.5;
+    font-size: 15px;
+}
+ul{
+    font-size: 15px;
+    li{
+        list-style: none;
+    }
+}
+
+$primary-color :#1269b5;
+
+div.box{
+    background-color: $primary-color;
+}
+
+h1.page-header {
+    border:1px solid $primary-color;
+}
