@@ -1,4 +1,17 @@
 body{
-    background: black;
-    height: 800px;
+    margin: 0;
+    padding: 0;
+    background: #ccc; 
+}
+ul li{
+    list-style-type: none
+}
+.icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.clear{
+    /* 清除左右浮动 */
+    clear: both;
 }
